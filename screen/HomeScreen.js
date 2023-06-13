@@ -1,8 +1,9 @@
 import { SafeAreaView, StyleSheet, Text, View,Alert, Pressable ,Image, TextInput} from 'react-native'
 import  * as Location from 'expo-location'
 import { useEffect, useState } from 'react'
-import { Ionicons } from '@expo/vector-icons';
-import { EvilIcons } from '@expo/vector-icons';
+import { Ionicons } from '@expo/vector-icons'
+import { EvilIcons } from '@expo/vector-icons'
+import { SliderBox } from "react-native-image-slider-box";
 
 
 
@@ -71,7 +72,7 @@ const getCurrentLocation = async () =>{
       </View>
       <View style={styles.search}>
         <TextInput style={styles.searchInput}/>
-        <EvilIcons name="search" size={24} color="black" />
+        <EvilIcons name="search" size={24} color="#E32636" />
       </View>
     </SafeAreaView>
   );
